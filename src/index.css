@@ -71,3 +71,15 @@ body {
   font-size: 0.875rem;
   font-weight: normal;
 }
+.header-submenu::before{
+  background: var(--primary-color);
+  content: " ";
+  display: inline-block;
+  height: 1px;
+  transition: all .3s ease-in-out .01s;
+  width: 0px;
+  margin-left: 0.5rem;
+}
+.header-submenu:hover::before{
+  width: 0.5rem;
+}

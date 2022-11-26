@@ -15,9 +15,10 @@ export default function HeaderDropDownMenu() {
       </li>
 
       <ControlledMenu {...menuProps} anchorRef={ref} onPointerLeave={() => toggleMenu(false)} onClose={() => toggleMenu(false)}>
-        <MenuItem>New File</MenuItem>
-        <MenuItem>Save</MenuItem>
-        <MenuItem>Close Window</MenuItem>
+        <MenuItem>فیلتر کردن محصولات ووکامرس</MenuItem>
+        <MenuItem>فیلتر کردن پست ها</MenuItem>
+        <MenuItem>مثال فیلترها</MenuItem>
+        <MenuItem>شخصی سازی</MenuItem>
       </ControlledMenu>
     </>
   );

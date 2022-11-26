@@ -16,6 +16,9 @@ export default function HeaderDropDownMenu() {
 
       <ControlledMenu {...menuProps} anchorRef={ref} onPointerLeave={() => toggleMenu(false)} onClose={() => toggleMenu(false)}>
         <MenuItem>فیلتر کردن محصولات ووکامرس</MenuItem>
+        <ul>
+            <li className="header-submenu">پوشاک زنانه</li>
+        </ul>
         <MenuItem>فیلتر کردن پست ها</MenuItem>
         <MenuItem>مثال فیلترها</MenuItem>
         <MenuItem>شخصی سازی</MenuItem>

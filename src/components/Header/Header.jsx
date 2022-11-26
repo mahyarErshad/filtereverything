@@ -1,4 +1,5 @@
 import React, { memo } from "react";
+import HeaderDropDownMenu from "./HeaderDropDownMenu";
 
 function Header() {
   return (
@@ -6,10 +7,7 @@ function Header() {
       <ul className="header-menu">
         <li>پشتیبانی</li>
         <li>مستندات</li>
-        <li className="flex items-center justify-center">
-          <span class="material-symbols-outlined">expand_more</span>
-          مشاهده دمو ها
-        </li>
+        <HeaderDropDownMenu />
       </ul>
     </header>
   );

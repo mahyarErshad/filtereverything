@@ -27,7 +27,6 @@ body {
 }
 .header-menu{
   background-color: rgba(51, 51, 51, .8);
-  padding: 1.4rem 1.5rem;
   padding-right: 20%;
   display: flex;
   justify-content: flex-start;
@@ -37,7 +36,9 @@ body {
 .header-menu li {
   color: #fff;
   cursor: pointer;
+  margin: 1.5rem 0;
+  transition: all ease 300ms;
 }
 .header-menu li:hover {
-  background-color: #393939;
+  color: #ed2390;
 }

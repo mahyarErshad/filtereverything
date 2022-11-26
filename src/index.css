@@ -6,7 +6,8 @@
   src: url("../public/assets/fonts/iransans.woff");
 }
 :root{
-  --primary-color: #ed2390
+  --primary-color: #ed2390;
+  --white: #fff;
 }
 html,
 body,
@@ -37,7 +38,7 @@ body {
   gap: 2rem;
 }
 .header-menu li {
-  color: #fff;
+  color: var(--white);
   cursor: pointer;
   margin: 1.5rem 0;
   transition: all ease 300ms;
@@ -55,7 +56,7 @@ body {
 .szh-menu__item {
   font-size: 1rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--white);
   margin: 0;
 }
 .szh-menu__item--hover {

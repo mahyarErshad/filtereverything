@@ -22,5 +22,9 @@ body {
 }
 .header-container {
   background-color: rgba(51, 51, 51, .8);
-  height: 10rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25%;
 }

@@ -5,7 +5,7 @@
   font-family: iranSans;
   src: url("../public/assets/fonts/iransans.woff");
 }
-:root{
+:root {
   --primary-color: #ed2390;
   --white: #fff;
 }
@@ -59,10 +59,11 @@ body {
   font-weight: 700;
   color: var(--white);
   margin: 0;
+  cursor: text !important;
 }
 .szh-menu__item--hover {
-  color: var(--primary-color);
   background-color: #383b47 !important;
+  color: var(--white) !important;
   opacity: 0.8;
 }
 .header-submenu {

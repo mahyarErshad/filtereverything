@@ -21,6 +21,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .header-container {
+  background-image: url();
+}
+.header-menu{
   background-color: rgba(51, 51, 51, .8);
   padding: 1rem;
   display: flex;

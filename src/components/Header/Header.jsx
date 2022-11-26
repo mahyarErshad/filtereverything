@@ -1,7 +1,11 @@
 import React from "react";
 
 function Header() {
-  return <div className="header-container">Header</div>;
+  return <header className="header-container">
+    <ul>
+        <li>Hi</li>
+    </ul>
+  </header>;
 }
 
 export default Header;

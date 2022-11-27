@@ -9,14 +9,7 @@ export default function HeaderDropDownMenu() {
           <span className="material-symbols-outlined">expand_more</span>
         </div>
         <ul className="absolute right-[5%] top-[100%] drop-down-menu flex justify-start items-start flex-col">
-          <div className="flex justify-start items-start flex-col p-4 w-max">
-            <span className="drop-down-menu__item mb-2">فیلتر کردن پست ها</span>
-            <li className="header-submenu">پوشاک زنانه</li>
-            <li className="header-submenu">مثال های سئو</li>
-            <li className="header-submenu">لپتاپ</li>
-            <li className="header-submenu">تلویزیون</li>
-            <li className="header-submenu">مثال های جستجوی محصول</li>
-          </div>
+
           <div className="drop-down-menu__item">مثال فیلترها</div>
           <div className="drop-down-menu__item">شخصی سازی</div>
         </ul>

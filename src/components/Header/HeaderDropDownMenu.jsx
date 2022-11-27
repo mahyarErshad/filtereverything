@@ -1,3 +1,5 @@
+import React from 'react'
+
 export default function HeaderDropDownMenu() {
   return (
     <>
@@ -6,8 +8,8 @@ export default function HeaderDropDownMenu() {
           <span>مشاهده دمو ها</span>
           <span className="material-symbols-outlined">expand_more</span>
         </div>
-        <ul className="absolute right-[10%] top-[100%] drop-down-menu flex justify-start items-start flex-col">
-          <div className="flex justify-start items-start flex-col px-4 py-6 w-max">
+        <ul className="absolute right-[5%] top-[100%] drop-down-menu flex justify-start items-start flex-col">
+          <div className="flex justify-start items-start flex-col p-4 w-max">
             <span className="drop-down-menu__item mb-2">فیلتر کردن پست ها</span>
             <li className="header-submenu">پوشاک زنانه</li>
             <li className="header-submenu">مثال های سئو</li>

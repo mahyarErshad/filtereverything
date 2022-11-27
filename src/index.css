@@ -70,6 +70,7 @@ body {
   padding: 0 1.5rem;
   font-size: 0.875rem;
   font-weight: normal;
+  min-width: 13.9375rem;
 }
 .header-submenu::before {
   background: var(--primary-color);

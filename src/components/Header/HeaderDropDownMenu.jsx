@@ -9,10 +9,14 @@ function HeaderDropDownMenu() {
           <span>مشاهده دمو ها</span>
           <span className="material-symbols-outlined">expand_more</span>
         </div>
-        <ul className="absolute right-[5%] top-[100%] drop-down-menu flex justify-start items-start flex-col">
-          <HeaderSubMenu title="فیلتر کردن پستها" data={["پوشاک زنانه", "مثال های سئو", "کامپیوتر", "لپتاپ", "مثال های جستجوی محصول"]} />
-          <div className="drop-down-menu__item">مثال فیلترها</div>
-          <div className="drop-down-menu__item">شخصی سازی</div>
+        <ul className="absolute right-[5%] top-[100%] drop-down-menu flex justify-start items-start flex-row">
+          <div>
+            <HeaderSubMenu title="فیلتر کردن پستها" data={["پوشاک زنانه", "مثال های سئو", "کامپیوتر", "لپتاپ", "مثال های جستجوی محصول"]} />
+            <HeaderSubMenu title="مثال فیلترها" data={["قیمت", "حراج", "وزن", "لپتاپ", "قابل دانلود", "امتیاز محصول", "تعداد فروش", "نویسنده"]} />
+          </div>
+          <div>
+            <HeaderSubMenu title="شخصی سازی" data={["پوشش تاریک و لودر AJAX", "AJAX غیرفعال است", "طرح رنگی"]} />
+          </div>
         </ul>
       </li>
     </>

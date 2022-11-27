@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import HeaderSubMenu from "./HeaderSubMenu";
 
 export default function HeaderDropDownMenu() {
   return (
@@ -9,7 +10,7 @@ export default function HeaderDropDownMenu() {
           <span className="material-symbols-outlined">expand_more</span>
         </div>
         <ul className="absolute right-[5%] top-[100%] drop-down-menu flex justify-start items-start flex-col">
-
+          <HeaderSubMenu title="فیلتر کردن پستها" data={["پوشاک زنانه", "مثال های سئو", "کامپیوتر", "لپتاپ", "مثال های جستجوی محصول"]} />
           <div className="drop-down-menu__item">مثال فیلترها</div>
           <div className="drop-down-menu__item">شخصی سازی</div>
         </ul>

@@ -1,21 +1,12 @@
-import { useRef } from "react";
-import { ControlledMenu, MenuItem, useMenuState } from "@szhsin/react-menu";
-import "@szhsin/react-menu/dist/index.css";
-import "@szhsin/react-menu/dist/transitions/slide.css";
-
 export default function HeaderDropDownMenu() {
-  const ref = useRef(null);
-  const [menuProps, toggleMenu] = useMenuState({ transition: true });
-
   return (
     <>
-      <li ref={ref} onPointerEnter={() => toggleMenu(true)} className="flex items-center justify-center">
+      <li className="flex items-center justify-center">
         <span className="material-symbols-outlined">expand_more</span>
         مشاهده دمو ها
       </li>
 
-      <ControlledMenu {...menuProps} anchorRef={ref} onPointerLeave={() => toggleMenu(false)} onClose={() => toggleMenu(false)}>
-        <MenuItem>فیلتر کردن محصولات ووکامرس</MenuItem>
+      <div className="flex justify-between items-center flex-col">
         <ul>
           <li className="header-submenu">پوشاک زنانه</li>
           <li className="header-submenu">مثال های سئو</li>
@@ -23,10 +14,10 @@ export default function HeaderDropDownMenu() {
           <li className="header-submenu">تلویزیون</li>
           <li className="header-submenu">مثال های جستجوی محصول</li>
         </ul>
-        <MenuItem>فیلتر کردن پست ها</MenuItem>
-        <MenuItem>مثال فیلترها</MenuItem>
-        <MenuItem>شخصی سازی</MenuItem>
-      </ControlledMenu>
+        <div>فیلتر کردن پست ها</div>
+        <div>مثال فیلترها</div>
+        <div>شخصی سازی</div>
+      </div>
     </>
   );
 }

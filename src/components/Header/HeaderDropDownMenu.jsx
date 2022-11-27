@@ -1,7 +1,7 @@
-import React from "react";
+import React, { memo } from "react";
 import HeaderSubMenu from "./HeaderSubMenu";
 
-export default function HeaderDropDownMenu() {
+ function HeaderDropDownMenu() {
   return (
     <>
       <li className="relative z-10 text-base overflow-hidden hover:overflow-visible cursor-pointer ease-linear duration-[200ms] text-center h-full text-white flex items-start px-[0.5rem] hover:text-primary]">
@@ -18,3 +18,4 @@ export default function HeaderDropDownMenu() {
     </>
   );
 }
+export default memo(HeaderDropDownMenu)

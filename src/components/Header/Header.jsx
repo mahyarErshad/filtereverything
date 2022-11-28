@@ -11,7 +11,7 @@ function Header() {
           <HeaderDropDownMenu />
         </div>
         <div className="sm:visible md:hidden flex items-center justify-center cursor-pointer">
-          <span class="material-symbols-outlined text-white hover:text-slate-300">menu</span>
+          <button class="material-symbols-outlined text-white hover:text-slate-300">menu</button>
         </div>
       </ul>
     </header>

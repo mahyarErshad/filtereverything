@@ -28,7 +28,7 @@ body {
 .header-container {
   background-image: url("../public/assets/images/header-background.jpg");
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100%;
 }
 .header-menu {
   background-color: rgba(51, 51, 51, 0.8);
@@ -50,7 +50,6 @@ body {
   padding: 0 0.5rem;
   background-color: rgba(51, 51, 51, 0.85) !important;
   transition-delay: 150ms;
-  max-height: 80vh;
   min-width: fit-content;
 }
 .drop-down-menu__item {

@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="header-container">
       <ul className="header-menu flex justify-between max-sm:px-4 sm:px-[10%] md:px-[20%] text-prima">
-        <div className={`flex justify-center gap-6 h-full items-center max-sm:${openMenu ? "flex" : "hidden"} sm:${openMenu ? "flex" : "hidden"} md:flex`}>
+        <div className={`flex justify-center gap-6 h-full items-center max-sm:${openMenu ? "flex" : "hidden"} sm:${openMenu ? "flex" : "hidden"} md:flex max-sm:flex-col sm:flex-col md:flex-row`} >
           <li className="h-full flex items-center">پشتیبانی</li>
           <li className="h-full flex items-center">مستندات</li>
           <HeaderDropDownMenu />

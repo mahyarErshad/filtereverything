@@ -4,7 +4,7 @@ import HeaderSubMenu from "./HeaderSubMenu";
 function HeaderDropDownMenu() {
   return (
     <>
-      <li className="relative z-10 text-base overflow-hidden hover:overflow-visible cursor-pointer ease-linear duration-[200ms] text-center h-full text-white flex items-start px-[0.5rem] hover:text-primary]">
+      <li className="relative z-10 text-base overflow-hidden hover:overflow-visible cursor-pointer ease-linear duration-[200ms] text-center h-full text-white flex items-center px-[0.5rem] hover:text-primary]">
         <div className="flex justify-center items-center">
           <span>مشاهده دمو ها</span>
           <span className="material-symbols-outlined">expand_more</span>

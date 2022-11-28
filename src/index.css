@@ -36,11 +36,11 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
+  height: 4rem;
 }
 .header-menu li {
   color: var(--white);
   cursor: pointer;
-  margin: 0.7rem 0;
   transition: all ease 300ms;
 }
 .header-menu li:hover {

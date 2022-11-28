@@ -12,7 +12,7 @@ function Header() {
           <HeaderDropDownMenu />
         </div>
         <div className="sm:visible md:hidden flex items-center justify-center cursor-pointer">
-          <button onClick={() => setOpenMenu((prev) => !prev)} class="material-symbols-outlined text-white hover:text-slate-300">
+          <button onClick={() => setOpenMenu((prev) => !prev)} class="material-symbols-outlined text-white hover:text-[#6efafb]">
             menu
           </button>
         </div>

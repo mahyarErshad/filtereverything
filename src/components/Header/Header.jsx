@@ -11,7 +11,7 @@ function Header() {
             {openMenu ? "close" : "menu"}
           </button>
         </div>
-        <div className={`flex justify-center gap-6 md:h-full sm:h-auto max-sm:h-auto items-center max-sm:${openMenu ? "flex" : "hidden"} sm:${openMenu ? "flex" : "hidden"} md:flex max-sm:flex-col sm:flex-col md:flex-row sm:absolute max-sm:absolute max-sm:top-[140%] max-sm:right-[0%] sm:top-[140%] sm:right-[8%] md:top-[0%] `}>
+        <div className={`flex justify-center max-sm:items-start sm:px-11 max-sm:px-12 sm:items-start gap-6 md:h-full sm:h-auto max-sm:h-auto items-center max-sm:${openMenu ? "flex" : "hidden"} sm:${openMenu ? "flex" : "hidden"} md:flex max-sm:flex-col sm:flex-col md:flex-row sm:absolute max-sm:absolute max-sm:top-[140%] max-sm:right-[0%] sm:top-[140%] sm:right-[8%] md:top-[0%] `}>
           <li className="h-full flex items-center">پشتیبانی</li>
           <li className="h-full flex items-center">مستندات</li>
           <HeaderDropDownMenu />

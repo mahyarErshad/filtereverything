@@ -12,7 +12,7 @@ function HeaderSubMenu({ title, data = [] }) {
       </span>
       {data.map((item) => {
         return (
-          <li key={item} className={`header-submenu mr-2 max-md:${showMenuClass}`}>
+          <li key={item} className={`header-submenu mr-2 animation-fade max-md:${showMenuClass}`}>
             {item}
           </li>
         );

@@ -54,11 +54,6 @@ body {
   background-color: rgba(51, 51, 51, 0.85) !important;
   transition-delay: 150ms;
 }
-.drop-down-menu__item {
-  font-size: 1rem;
-  font-weight: 700;
-  cursor: text !important;
-}
 .drop-down-menu__item--hover {
   color: var(--white) !important;
   opacity: 0.8;

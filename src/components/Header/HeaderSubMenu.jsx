@@ -6,13 +6,13 @@ function HeaderSubMenu({ title, data = [] }) {
   const textColor = showMenu ? "text-[#6efafb]" : "text-white";
   return (
     <div className="flex justify-start items-start flex-col p-4 w-max">
-      <span onClick={() => setShowMenu((prev) => !prev)} className={`drop-down-menu__item mb-2 flex items-center cursor-pointer ${textColor}`}>
+      <span onClick={() => setShowMenu((prev) => !prev)} className={`drop-down-menu__item mb-2 flex items-center text-base font-normal cursor-pointer ${textColor}`}>
         {title}
         <span className="material-symbols-outlined max-md:visible md:hidden">expand_more</span>
       </span>
       {data.map((item) => {
         return (
-          <li key={item} className={`header-submenu max-md:${showMenuClass}`}>
+          <li key={item} className={`header-submenu mr-2 max-md:${showMenuClass}`}>
             {item}
           </li>
         );

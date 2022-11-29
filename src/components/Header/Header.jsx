@@ -3,7 +3,7 @@ import HeaderDropDownMenu from "./HeaderDropDownMenu";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
-  const openMenuClass = openMenu ? "flex" : "hidden";
+  const openMenuClass = openMenu ? "visible" : "hidden";
   console.log(openMenuClass);
   return (
     <header className="header-container">
@@ -13,7 +13,7 @@ function Header() {
             {openMenu ? "close" : "menu"}
           </button>
         </div>
-        <div className={`flex justify-center max-sm:items-start max-md:w-full max-md:bg-[#333333] max-md:opacity-[0.8] sm:pr-[6.5rem] max-sm:pr-12 sm:items-start gap-6 md:h-full sm:h-auto max-sm:h-auto items-center max-md:${openMenuClass} md:flex max-sm:flex-col sm:flex-col md:flex-row sm:absolute max-sm:absolute max-sm:top-[100%] max-sm:right-[0%] sm:top-[100%] sm:right-[0] md:top-[0%] `}>
+        <div className={`flex justify-center max-sm:items-start max-md:pb-2 max-md:w-full max-md:bg-[#333333] max-md:opacity-[0.8] sm:pr-[6.5rem] max-sm:pr-12 sm:items-start gap-6 md:h-full sm:h-auto max-sm:h-auto items-center max-md:${openMenuClass} md:flex max-sm:flex-col sm:flex-col md:flex-row sm:absolute max-sm:absolute max-sm:top-[100%] max-sm:right-[0%] sm:top-[100%] sm:right-[0] md:top-[0%] `}>
           <li className="h-full flex items-center">پشتیبانی</li>
           <li className="h-full flex items-center">مستندات</li>
           <HeaderDropDownMenu />

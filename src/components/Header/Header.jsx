@@ -4,7 +4,6 @@ import HeaderDropDownMenu from "./HeaderDropDownMenu";
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const openMenuClass = openMenu ? "visible" : "hidden";
-  console.log(openMenuClass);
   return (
     <header className="header-container">
       <ul className="header-menu flex justify-between max-sm:px-4 sm:px-[10%] md:px-[20%] text-prima relative h-16 ">

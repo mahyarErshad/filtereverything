@@ -5,7 +5,7 @@ function HeaderSubMenu({ title, data = [] }) {
   const showMenuClass = showMenu ? 'visible' : 'hidden';
   return (
     <div className="flex justify-start items-start flex-col p-4 w-max">
-      <span className="drop-down-menu__item mb-2">{title}</span>
+      <span onClick={()=> setShowMenu((prev)=> !prev)} className="drop-down-menu__item mb-2">{title}</span>
       {data.map((item) => {
         return (
           <li key={item} className={`header-submenu max-md:${showMenuClass}`}>

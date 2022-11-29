@@ -54,7 +54,6 @@ body {
 .drop-down-menu__item {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--white);
   cursor: text !important;
 }
 .drop-down-menu__item--hover {

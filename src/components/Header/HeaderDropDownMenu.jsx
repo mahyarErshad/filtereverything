@@ -10,7 +10,7 @@ function HeaderDropDownMenu() {
           <span>مشاهده دمو ها</span>
           <span className="material-symbols-outlined">expand_more</span>
         </div>
-        <ul className="absolute md:right-[5%] max-md:pr-32 max-md:w-[116.7%] max-md:right-[-6.4375rem] max-md:top-[130%] md:top-[100%] drop-down-menu flex justify-start items-start flex-row max-md:flex-col max-md:overflow-auto">
+        <ul className="absolute md:right-[5%] max-md:pr-32 max-md:w-[150%] max-md:right-[-6.4375rem] max-md:top-[130%] md:top-[100%] drop-down-menu flex justify-start items-start flex-row max-md:flex-col max-md:overflow-auto">
           <div>
             <HeaderSubMenu title="فیلتر کردن پستها" data={["پوشاک زنانه", "مثال های سئو", "کامپیوتر", "لپتاپ", "مثال های جستجوی محصول"]} />
             <HeaderSubMenu title="مثال فیلترها" data={["قیمت", "حراج", "وزن", "لپتاپ", "قابل دانلود", "امتیاز محصول", "تعداد فروش", "نویسنده"]} />

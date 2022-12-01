@@ -3,17 +3,7 @@ import React from "react";
 function Button(props) {
   const { title } = props;
   return (
-    <button
-      className={`${props.className} bg-[] #6efafb
-    padding: 8px 15px;
-    line-height: inherit;
-    border-radius: 5px;
-    text-shadow: none;
-    margin-left: 15px
-px
-;`}
-      onClick={props.onClick}
-    >
+    <button className={`bg-primary py-2 px-4 rounded-md ${props.className}`} onClick={props.onClick}>
       {title}
     </button>
   );

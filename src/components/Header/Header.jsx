@@ -1,4 +1,5 @@
 import React, { memo, useState } from "react";
+import Button from "../Utils/Button/Button";
 import HeaderDropDownMenu from "./HeaderDropDownMenu";
 
 function Header() {
@@ -18,6 +19,7 @@ function Header() {
           <HeaderDropDownMenu />
         </div>
       </ul>
+      <Button title="خرید نسخه pro" />
     </header>
   );
 }

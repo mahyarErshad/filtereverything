@@ -3,7 +3,7 @@ import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommer
 
 function HeaderTextSection() {
   return (
-    <div className="md:pr-[10%] sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-6">
+    <div className="md:pr-[10%] sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-6 rounded-bl-[50%]">
       <div className="pt-16">
         <h1 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold">
           غول

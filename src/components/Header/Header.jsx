@@ -6,7 +6,7 @@ function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const openMenuClass = openMenu ? "visible" : "hidden";
   return (
-    <header className="header-container">
+    <header className="header-container relative">
       <div className="header-menu flex justify-between max-sm:px-4 sm:px-[10%] md:px-[20%] text-prima relative h-16 ">
         <div className="flex justify-between w-full">
           <div className="sm:visible md:hidden flex items-center justify-center cursor-pointer">

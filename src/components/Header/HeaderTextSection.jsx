@@ -1,21 +1,24 @@
 import React, { memo } from "react";
-import {ReactComponent as WoocommerceLogo} from "../../assets/images/woocommerce_logo.svg";
+import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
 
 function HeaderTextSection() {
   return (
-    <>
-      <div className="md:pr-[20%] sm:pr-10 max-sm:pr-4 pt-16">
+    <div className="md:pr-[15%] sm:pr-10 max-sm:pr-8">
+      <div className="pt-16">
         <h1 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold">
           غول
           <sup className="text-center text-black py-0 px-4 rounded-[35px] bg-[#ffd000] text-3xl mr-4">+سئو</sup>
         </h1>
         <h2 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold mr-3">فیلتر</h2>
       </div>
-      <div>
+      <div className="flex flex-col gap-4">
         <p className="max-md:text-3xl md:text-4xl font-bold text-white">برای WordPress</p>
-        <div className="max-md:text-3xl md:text-4xl font-bold text-white flex items-center"><span>و</span> <WoocommerceLogo className="max-md:w-56 md:w-[26rem]" /></div>
+        <span className="md:-translate-y-3 max-md:-translate-y-2 text-white max-md:text-4xl md:text-5xl max-md:pr-20 md:pr-28">و</span>
+        <div className="max-md:text-3xl md:text-4xl font-bold text-white">
+          <WoocommerceLogo className="max-md:w-56 md:w-[26rem]" />
+        </div>
       </div>
-    </>
+    </div>
   );
 }
 

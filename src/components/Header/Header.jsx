@@ -21,7 +21,7 @@ function Header() {
             <HeaderDropDownMenu />
           </div>
         </div>
-        <Button className="font-bold hover:bg-[#18caca]" title="خرید نسخه pro" />
+        <Button className="font-bold hover:bg-[#18caca]" title="خرید نسخه حرفه ای" />
       </div>
       <HeaderTextSection />
     </header>

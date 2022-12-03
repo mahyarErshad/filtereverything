@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import woocommerceLogo from "../../assets/images/woocommerce_logo.svg";
+import {ReactComponent as woocommerceLogo} from "../../assets/images/woocommerce_logo.svg";
 
 function HeaderTextSection() {
   return (

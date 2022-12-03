@@ -13,7 +13,7 @@ function HeaderTextSection() {
       </div>
       <div>
         <p className="max-md:text-3xl md:text-4xl font-bold text-white">برای WordPress</p>
-        <div className="max-md:text-3xl md:text-4xl font-bold text-white flex items-center"><span>و</span> <WoocommerceLogo className="max-md:w-7 md:w-9" /></div>
+        <div className="max-md:text-3xl md:text-4xl font-bold text-white flex items-center"><span>و</span> <WoocommerceLogo className="max-md:w-56 md:w-[26rem]" /></div>
       </div>
     </>
   );

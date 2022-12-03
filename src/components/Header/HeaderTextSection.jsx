@@ -1,10 +1,9 @@
 import React, { memo } from "react";
 import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
-import { ReactComponent as headerBannerSmallBackground } from "../../assets/images/headerBannerSmallBackground.svg";
 
 function HeaderTextSection() {
   return (
-    <div className="md:pr-[10%] sm:pr-10 max-sm:pr-8">
+    <div className="md:pr-[10%] sm:pr-10 max-sm:pr-8 ">
       <div className="pt-16">
         <h1 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold">
           غول

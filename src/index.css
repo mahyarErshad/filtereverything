@@ -88,6 +88,3 @@ body {
   animation: fadeIn 1s ease-in both;
   animation-duration: 1s;
 }
-.headerBannerSmallBackground{
-  background-image: url(./assets/images/headerBannerSmallBackground.svg);
-}

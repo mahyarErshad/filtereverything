@@ -18,6 +18,9 @@ function HeaderTextSection() {
           <WoocommerceLogo className="max-md:w-56 md:w-[18rem]" />
         </div>
       </div>
+      <div className="max-md:w-56 md:w-[18rem]">
+        <p className="text-white mt-6">غول فیلتر - افزونه فیلتر محصولات وردپرس و ووکامرس که به شما اجازه پیاده سازی هر نوع فیلتری را می دهد.</p>
+      </div>
     </div>
   );
 }

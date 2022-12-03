@@ -1,6 +1,7 @@
 import React, { memo, useState } from "react";
 import Button from "../Utils/Button/Button";
 import HeaderDropDownMenu from "./HeaderDropDownMenu";
+import HeaderTextSection from "./HeaderTextSection";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -22,6 +23,7 @@ function Header() {
         </div>
         <Button className="font-bold hover:bg-[#18caca]" title="خرید نسخه pro" />
       </div>
+      <HeaderTextSection />
     </header>
   );
 }

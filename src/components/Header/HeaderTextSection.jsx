@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 function HeaderTextSection() {
   return (
-    <div>HeaderTextSection</div>
+    <div>
+
+    </div>
   )
 }
 
-export default HeaderTextSection
+export default memo(HeaderTextSection)

@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
+import { ReactComponent as headerBannerSmallBackground } from "../../assets/images/headerBannerSmallBackground.svg";
 
 function HeaderTextSection() {
   return (

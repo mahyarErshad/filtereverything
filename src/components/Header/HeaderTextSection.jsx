@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
-import Button from "../Utils/Button/Button"
+import Button from "../Utils/Button/Button";
 
 function HeaderTextSection() {
   return (
@@ -22,9 +22,9 @@ function HeaderTextSection() {
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">
         <p className="text-white mt-6">غول فیلتر - افزونه فیلتر محصولات وردپرس و ووکامرس که به شما اجازه پیاده سازی هر نوع فیلتری را می دهد.</p>
       </div>
-      <div className="flex justify-between items-center flex-wrap mt-6">
-      <Button title="دانلود رایگان" className="download-for-free-button" backgroundColor="bg-transparent" textColor="text-white" />
-      <Button title="خرید نسخه حرفه ای" />
+      <div className="flex justify-between items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[25rem] gap-4">
+        <Button title="دانلود رایگان" className="download-for-free-button" backgroundColor="bg-transparent" textColor="text-white" />
+        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem]" />
       </div>
     </div>
   );

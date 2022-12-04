@@ -90,10 +90,11 @@ body {
 }
 .download-for-free-button {
   border: 2px solid #ffffff;
-  padding: 0.875rem 2.5rem;
+  padding: 0.8rem 4rem 0.8rem 3.5rem;
   font-weight: 400;
   background-image: url("../public/assets/images/white_wordpress.svg");
-  background-position: 2.5rem 50%;
+  background-position: 10rem 46%;
   background-repeat: no-repeat;
   background-size: 2rem;
+  font-size: 1.2rem;
 }

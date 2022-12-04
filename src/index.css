@@ -8,6 +8,7 @@
 :root {
   --primary-color: #6efafb;
   --white: #fff;
+  --gray: #dcdcdc;
 }
 @keyframes fadeIn {
   from {
@@ -99,7 +100,7 @@ body {
   font-size: 1.2rem;
 }
 .download-for-free-button:hover{
-  border-color: #dcdcdc;
-  color: #dcdcdc;
+  border-color: var(--gray);
+  color: var(--gray);
   background-image: url("../public/assets/images/gray_wordpress.svg");
 }

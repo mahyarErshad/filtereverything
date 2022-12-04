@@ -99,6 +99,7 @@ body {
   font-size: 1.2rem;
 }
 .download-for-free-button:hover{
-  border-color: gainsboro;
-  color: gainsboro;
+  border-color: #dcdcdc;
+  color: #dcdcdc;
+  background-image: url("../public/assets/images/gray_wordpress.svg");
 }

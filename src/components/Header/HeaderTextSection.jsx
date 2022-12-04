@@ -24,7 +24,7 @@ function HeaderTextSection() {
       </div>
       <div className="flex justify-between items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[25rem] gap-4">
         <Button title="دانلود رایگان" className="download-for-free-button" backgroundColor="bg-transparent" textColor="text-white" />
-        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem]" />
+        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-11" />
       </div>
     </div>
   );

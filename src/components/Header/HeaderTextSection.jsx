@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
+import Button from "../Utils/Button/Button"
 
 function HeaderTextSection() {
   return (
@@ -20,6 +21,9 @@ function HeaderTextSection() {
       </div>
       <div className="max-md:w-56 md:w-[18rem]">
         <p className="text-white mt-6">غول فیلتر - افزونه فیلتر محصولات وردپرس و ووکامرس که به شما اجازه پیاده سازی هر نوع فیلتری را می دهد.</p>
+      </div>
+      <div className="flex justify-between items-center flex-wrap">
+      <Button title="دانلود رایگان" className="download-for-free-button" backgroundColor="bg-transparent" textColor="text-white" />
       </div>
     </div>
   );

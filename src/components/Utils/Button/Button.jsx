@@ -5,7 +5,7 @@ function Button(props) {
   const backgroundColor = props.backgroundColor || "bg-primary"
   const textColor = props.textColor || "text-[#323232]"
   return (
-    <button className={`${backgroundColor} ${textColor} py-2 px-4 rounded-md text-ellipsis whitespace-nowrap transition-all ${props.className}`} onClick={props.onClick}>
+    <button className={`${backgroundColor} ${textColor} px-4 rounded-md text-ellipsis whitespace-nowrap transition-all ${props.className}`} onClick={props.onClick}>
       {title}
     </button>
   );

@@ -1,4 +1,5 @@
 import React, { memo } from 'react'
+import taxonomyImage from "../../assets/images/taxonomy.jpg"
 
 function TaxonomySection() {
   return (

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 
 function TaxonomySection() {
   return (
@@ -6,4 +6,4 @@ function TaxonomySection() {
   )
 }
 
-export default TaxonomySection
+export default memo(TaxonomySection)

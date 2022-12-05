@@ -9,6 +9,7 @@
   --primary-color: #6efafb;
   --white: #fff;
   --gray: #dcdcdc;
+  --purple: #445DC8;
 }
 @keyframes fadeIn {
   from {

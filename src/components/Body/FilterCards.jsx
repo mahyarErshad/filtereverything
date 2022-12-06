@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 import cardFilterImage from "../../assets/images/filterCards.jpg";
 
 function FilterCards() {
@@ -14,4 +14,4 @@ function FilterCards() {
   );
 }
 
-export default FilterCards;
+export default memo(FilterCards);

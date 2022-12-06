@@ -1,12 +1,14 @@
-import React from 'react'
-import TaxonomySection from './TaxonomySection'
+import React from "react";
+import FilterCards from "./FilterCards";
+import TaxonomySection from "./TaxonomySection";
 
 function MainBody() {
   return (
     <>
-        <TaxonomySection />
+      <TaxonomySection />
+      <FilterCards />
     </>
-  )
+  );
 }
 
-export default MainBody
+export default MainBody;

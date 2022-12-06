@@ -1,4 +1,5 @@
 import React from "react";
+import cardFilterImage from "../../assets/images/filterCards.jpg"
 
 function FilterCards() {
   return (
@@ -8,6 +9,7 @@ function FilterCards() {
         <p className="md:mr-36 font-bold max-md:text-2xl md:text-3xl">با هر پارامتری!</p>
         <p className="md:text-lg max-md:text-base font-medium text-[#222]">برای هر نوع پست که دارای آرشیو است.</p>
       </div>
+      <img />
     </section>
   );
 }

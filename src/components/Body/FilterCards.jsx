@@ -2,7 +2,9 @@ import React from 'react'
 
 function FilterCards() {
   return (
-    <div>FilterCards</div>
+    <section>
+
+    </section>
   )
 }
 

@@ -9,7 +9,7 @@ function FilterSets() {
         <h5>مجموعه فیلترهای <span className="text-purple">شخصی</span> ایجاد کنید</h5>
         <h4>برای هر صفحه سایت وردپرس خودتان</h4>
       </div>
-      <div className="flex max-md:w-full md:w-2/4 bg-yellow-300">
+      <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%] pr-2 bg-yellow-300">
       <img src={filterSetsImage} alt="filter sets" />
       </div>
     </section>

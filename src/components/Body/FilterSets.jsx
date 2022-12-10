@@ -1,4 +1,6 @@
 import React from "react";
+import filterSetsImage from "../../assets/images/filter-sets.jpg"
+
 
 function FilterSets() {
   return (
@@ -7,7 +9,9 @@ function FilterSets() {
         <h5>مجموعه فیلترهای <span className="text-purple">شخصی</span> ایجاد کنید</h5>
         <h4>برای هر صفحه سایت وردپرس خودتان</h4>
       </div>
-      <div className="flex max-md:w-full md:w-2/4 bg-yellow-300"></div>
+      <div className="flex max-md:w-full md:w-2/4 bg-yellow-300">
+      <img src={filterSetsImage} alt="filter sets" />
+      </div>
     </section>
   );
 }

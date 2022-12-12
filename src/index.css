@@ -41,7 +41,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .header-container {
-  background-image: url("../public/assets/images/header-background.jpg");
+  background-image: url("../public/assets/images/header-background.png");
   background-repeat: no-repeat;
 }
 .header-menu {

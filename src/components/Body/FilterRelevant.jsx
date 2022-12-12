@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import cardFilterImage from "../../assets/images/filterCards.jpg";
+import filterRelevant from "../../assets/images/filterRelevant.jpg";
 
 function FilterRelevant() {
   return (
@@ -9,7 +9,7 @@ function FilterRelevant() {
         <p className="font-bold text-[2.2rem]">با <span className="text-purple">هر</span> پارامتری!</p>
         <p className="md:text-lg max-md:text-base font-medium text-[#222] mt-4">برای <span className="text-purple">هر</span> نوع پست که دارای آرشیو است.</p>
       </div>
-      <img src={cardFilterImage} alt="card filter" />
+      <img src={filterRelevant} alt="card filter" />
     </section>
   );
 }

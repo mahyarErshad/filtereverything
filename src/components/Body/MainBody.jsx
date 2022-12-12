@@ -3,6 +3,7 @@ import FilterCards from "./FilterCards";
 import TaxonomySection from "./TaxonomySection";
 import FilterSets from "./FilterSets";
 import FilterRelevant from "./FilterRelevant";
+import MobileView from "./MobileView";
 
 function MainBody() {
   return (
@@ -11,7 +12,7 @@ function MainBody() {
       <FilterCards />
       <FilterSets />
       <FilterRelevant />
-      
+      <MobileView />
     </>
   );
 }

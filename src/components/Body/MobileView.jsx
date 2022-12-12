@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import filterSetsImage from "../../assets/images/filter-sets.jpg";
+import mobileView from "../../assets/images/mobileView.jpg";
 
 function MobileView() {
   return (
@@ -14,7 +14,7 @@ function MobileView() {
         <span className="max-sm:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
       </div>
       <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%]">
-        <img className="h-auto max-w-full" src={filterSetsImage} alt="taxonomy" />
+        <img className="h-auto max-w-full" src={mobileView} alt="taxonomy" />
       </div>
     </section>
   );

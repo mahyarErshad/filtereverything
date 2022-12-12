@@ -11,7 +11,7 @@ function MobileView() {
           <p className="text-base text-[#676767] font-medium mt-8">ویجت مخصوص زیرین به کاربران اجازه می دهد محصولات مورد نیازشان را تنها در چند کلیک پیدا کنند.</p>
         </div>
       </div>
-      <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%]">
+      <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%] pr-0">
         <img className="h-auto max-w-full" src={mobileView} alt="taxonomy" />
       </div>
     </section>

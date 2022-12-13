@@ -20,7 +20,7 @@ function CleanURLs() {
       <div className="flex flex-col md:gap-4 max-lg:items-center max-md:px-4 mb-6">
         <div className="flex flex-wrap justify-center w-full md:pl-[15%]">
           <div className="flex flex-col max-md:w-full md:w-2/4 gap-4 max-md:justify-center max-md:items-center md:items-end md:justify-between pl-4">
-            <p className="text-base text-[#676767] font-medium max-md:mb-4">این باعث می شود که آنها برای نمایه سازی توسط موتورهای جستجو در دسترس باشند.</p>
+            <p className="text-base text-[#676767] font-medium max-md:mb-4 md:pt-32">باعث می شود که فیلترها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
             <span className="max-md:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
           </div>
           <div className="flex max-md:w-full md:w-2/4">

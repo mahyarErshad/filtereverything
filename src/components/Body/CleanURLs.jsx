@@ -13,7 +13,7 @@ function CleanURLs() {
           <p>این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
         </p>
       </div>
-      <img className="max-lg:w-full lg:w-3/4 self-center md:mb-32 max-md:mb-12" src={clean_URLs} alt="Clean_URLs" />
+      <img className="max-lg:w-full lg:w-3/4 self-center lg:mb-32 max-lg:mb-8" src={clean_URLs} alt="Clean_URLs" />
       <p className="flex items-center max-lg:justify-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3 md:mb-10 max-md:mb-2 lg:pr-[25%] max-md:pr-4">
         ایجاد قوانین سئو برای<span className="text-purple">/آنها</span>
       </p>

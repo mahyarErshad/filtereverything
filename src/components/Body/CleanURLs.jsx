@@ -5,14 +5,12 @@ import graph from "../../assets/images/graph.svg";
 
 function CleanURLs() {
   return (
-    <section className="flex flex-col gap-4 w-full bg-[#F4F9FA] md:py-36 max-md:py-8 px-2">
+    <section className="flex flex-col gap-4 w-full bg-[#F4F9FA] md:pt-36 max-md:pt-8 px-2 max-md:pb-4 md: pb-8">
       <div className="flex flex-col md:gap-2 max-lg:items-center lg:px-[25%] max-md:px-4 mb-6">
         <p className="flex max-sm:flex-col items-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3">
           URL های تمیز برای <span className="text-purple">/فیلتر/نتایج/صفحات</span>
         </p>
-        <p className="md:text-lg max-md:text-base font-medium text-[#222] mt-4">
-          <p>این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
-        </p>
+        <p className="md:text-lg max-md:text-base font-medium text-[#222] mt-4">این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
       </div>
       <img className="max-lg:w-full lg:w-3/4 self-center lg:mb-32 max-lg:mb-8" src={clean_URLs} alt="Clean_URLs" />
       <p className="flex items-center max-lg:justify-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3 md:mb-10 max-md:mb-2 lg:pr-[25%] max-md:pr-4">
@@ -29,7 +27,10 @@ function CleanURLs() {
           </div>
         </div>
         <img className="self-center max-w-[6rem] lg:mt-32 max-lg:mt-8 md:mb-8 max-md:mb-4" src={graph} alt="graph" />
-        <h5 className="self-center lg:text-4xl md:text-3xl max-md:text-2xl font-bold">بازدیدکنندگان <span className="text-purple">بیشتری</span> را از موتورهای جستجو دریافت کنید!</h5>
+        <h5 className="self-center lg:text-4xl md:text-3xl max-md:text-2xl font-bold">
+          بازدیدکنندگان <span className="text-purple">بیشتری</span> را از موتورهای جستجو دریافت کنید!
+        </h5>
+        <p className="md:text-lg max-md:text-base self-center font-medium text-[#222] mt-4">با کلمات کلیدی "کوتاه" و "دم بلند".</p>
       </div>
     </section>
   );

@@ -4,6 +4,7 @@ import TaxonomySection from "./TaxonomySection";
 import FilterSets from "./FilterSets";
 import FilterRelevant from "./FilterRelevant";
 import MobileView from "./MobileView";
+import CleanURLs from "./CleanURLs";
 
 function MainBody() {
   return (
@@ -13,6 +14,7 @@ function MainBody() {
       <FilterSets />
       <FilterRelevant />
       <MobileView />
+      <CleanURLs />
     </>
   );
 }

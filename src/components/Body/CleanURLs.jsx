@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import cardFilterImage from "../../assets/images/filterCards.jpg";
+import clean_URLs from "../../assets/images/Clean_URLs.jpg";
 
 function CleanURLs() {
   return (
@@ -12,7 +12,7 @@ function CleanURLs() {
           <p>این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
         </p>
       </div>
-      <img src={cardFilterImage} alt="card filter" />
+      <img src={clean_URLs} alt="card filter" />
     </section>
   );
 }

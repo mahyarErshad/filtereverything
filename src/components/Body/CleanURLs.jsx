@@ -1,4 +1,4 @@
-import React from "react";
+import React, { memo } from "react";
 
 function CleanURLs() {
   return (
@@ -19,4 +19,4 @@ function CleanURLs() {
   );
 }
 
-export default CleanURLs;
+export default memo(CleanURLs);

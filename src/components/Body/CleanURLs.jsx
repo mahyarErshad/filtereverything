@@ -13,15 +13,15 @@ function CleanURLs() {
           <p>این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
         </p>
       </div>
-      <img className="max-lg:w-full lg:w-3/4 self-center md:mb-32 max-md:mb-6" src={clean_URLs} alt="Clean_URLs" />
+      <img className="max-lg:w-full lg:w-3/4 self-center md:mb-32 max-md:mb-12" src={clean_URLs} alt="Clean_URLs" />
       <p className="flex items-center max-lg:justify-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3 mb-10 lg:pr-[25%] max-md:pr-4">
         ایجاد قوانین سئو برای<span className="text-purple">/آنها</span>
       </p>
       <div className="flex flex-col md:gap-4 max-lg:items-center max-md:px-4 mb-6">
         <div className="flex flex-wrap justify-center w-full md:pl-[15%]">
-          <div className="flex flex-col max-md:w-full md:w-2/4 gap-4 max-md:justify-center max-md:items-center md:items-end pl-4">
-            <p className="text-base text-[#676767] font-medium mt-8">برای هر صفحه سایت وردپرس شما.</p>
-            <span className="max-sm:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
+          <div className="flex flex-col max-md:w-full md:w-2/4 gap-4 max-md:justify-center max-md:items-center md:items-end md:justify-between pl-4">
+            <p className="text-base text-[#676767] font-medium">برای هر صفحه سایت وردپرس شما.</p>
+            <span className="max-md:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
           </div>
           <div className="flex max-md:w-full md:w-2/4">
             <img src={SEO_Rules} alt="SEO_Rules" />

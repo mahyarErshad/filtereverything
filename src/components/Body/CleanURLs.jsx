@@ -28,7 +28,8 @@ function CleanURLs() {
             <img src={SEO_Rules} alt="SEO_Rules" />
           </div>
         </div>
-        <img className="self-center max-w-[6rem] lg:mt-32 max-lg:mt-8" src={graph} alt="graph" />
+        <img className="self-center max-w-[6rem] lg:mt-32 max-lg:mt-8 md:mb-8 max-md:mb-4" src={graph} alt="graph" />
+        <h5 className="self-center lg:text-4xl md:text-3xl max-md:text-2xl font-bold">بازدیدکنندگان <span className="text-purple">بیشتری</span> را از موتورهای جستجو دریافت کنید!</h5>
       </div>
     </section>
   );

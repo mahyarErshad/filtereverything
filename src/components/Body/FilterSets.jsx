@@ -11,7 +11,7 @@ function FilterSets() {
           </p>
           <p className="text-base text-[#676767] font-medium mt-8">برای هر صفحه سایت وردپرس شما.</p>
         </div>
-        <span className="max-sm:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
+        <span className="max-md:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
       </div>
       <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%]">
         <img className="h-auto max-w-full" src={filterSetsImage} alt="taxonomy" />

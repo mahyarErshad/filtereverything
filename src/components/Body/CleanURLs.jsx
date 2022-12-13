@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import clean_URLs from "../../assets/images/Clean_URLs.jpg";
+import SEO_Rules from "../../assets/images/SEO_Rules.jpg";
 
 function CleanURLs() {
   return (

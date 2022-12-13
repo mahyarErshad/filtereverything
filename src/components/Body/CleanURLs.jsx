@@ -19,7 +19,10 @@ function CleanURLs() {
           ایجاد قوانین سئو برای<span className="text-purple">/آنها</span>
         </p>
         <div className="flex flex-wrap justify-center w-full">
-          <div className="flex max-md:w-full md:w-2/4"></div>
+          <div className="flex flex-col max-md:w-full md:w-2/4 gap-4 max-md:justify-center max-md:items-center md:items-end">
+            <p className="text-base text-[#676767] font-medium mt-8">برای هر صفحه سایت وردپرس شما.</p>
+            <span className="max-sm:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">همچنین</span>
+          </div>
           <div className="flex max-md:w-full md:w-2/4">
             <img src={SEO_Rules} alt="SEO_Rules" />
           </div>

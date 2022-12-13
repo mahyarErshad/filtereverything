@@ -12,7 +12,7 @@ function CleanURLs() {
           <p>این باعث می شود که آنها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
         </p>
       </div>
-      <img src={clean_URLs} alt="card filter" />
+      <img className="max-md:w-full md:w-3/4" src={clean_URLs} alt="card filter" />
     </section>
   );
 }

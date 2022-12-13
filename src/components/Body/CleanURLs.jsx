@@ -13,6 +13,11 @@ function CleanURLs() {
         </p>
       </div>
       <img className="max-lg:w-full lg:w-3/4 self-center md:mb-32 max-md:mb-6" src={clean_URLs} alt="card filter" />
+      <div className="flex flex-col md:gap-2 max-lg:items-center lg:px-[25%] max-md:px-4 mb-6">
+        <p className="flex items-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3">
+          ایجاد قوانین سئو برای<span className="text-purple">/آنها</span>
+        </p>
+      </div>
     </section>
   );
 }

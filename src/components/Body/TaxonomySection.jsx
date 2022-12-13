@@ -10,7 +10,7 @@ function TaxonomySection() {
           <p className="font-bold max-lg:text-xl lg:text-3xl">و فیلدهای سفارشی</p>
           <p className="text-base text-[#676767] font-medium mt-8">این ویژگی 99 درصد نیازهای فیلترینگ احتمالی را پوشش می دهد.</p>
         </div>
-        <span className="max-sm:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">پس شما میتوانید</span>
+        <span className="max-md:hidden bg-purple rounded-sm p-3 w-fit text-white max-md:mt-4">پس شما میتوانید</span>
       </div>
       <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%]">
         <img className="h-auto max-w-full" src={taxonomyImage} alt="taxonomy" />

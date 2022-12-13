@@ -1,6 +1,7 @@
 import React, { memo } from "react";
 import clean_URLs from "../../assets/images/Clean_URLs.jpg";
 import SEO_Rules from "../../assets/images/SEO_Rules.jpg";
+import graph from "../../assets/images/graph.svg";
 
 function CleanURLs() {
   return (
@@ -27,6 +28,7 @@ function CleanURLs() {
             <img src={SEO_Rules} alt="SEO_Rules" />
           </div>
         </div>
+        <img className="self-center max-w-[6rem] lg:mt-32 max-lg:mt-8" src={graph} alt="graph" />
       </div>
     </section>
   );

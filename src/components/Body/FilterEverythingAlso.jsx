@@ -7,6 +7,9 @@ function FilterEverythingAlso() {
         <h5 className="lg:text-4xl md:text-3xl max-md:text-2xl font-bold">
           غول فیلتر <span className="text-purple">همچنین</span>
         </h5>
+        <div>
+            
+        </div>
       </div>
     </section>
   );

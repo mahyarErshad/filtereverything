@@ -1,5 +1,6 @@
 import React from "react";
 import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards/FilterEverythingAlsoCards";
+import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg"
 
 function FilterEverythingAlso() {
   return (

@@ -10,7 +10,7 @@ function FilterEverythingAlso() {
           غول فیلتر <span className="text-purple">همچنین</span>
         </h5>
         <div>
-            <FilterEverythingAlsoCards icon={puzzleIcon} />
+            <FilterEverythingAlsoCards icon={puzzleIcon} title="سازگار با تم شما" description="به طور خودکار با اکثر تم ها کار می کند." />
         </div>
       </div>
     </section>

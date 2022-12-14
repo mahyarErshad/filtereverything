@@ -10,7 +10,7 @@ function FilterEverythingAlso() {
           غول فیلتر <span className="text-purple">همچنین</span>
         </h5>
       </div>
-      <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full">
+      <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full lg:mx-[25%]">
         <FilterEverythingAlsoCards icon={puzzleIcon} title="سازگار با تم شما" description="به طور خودکار با اکثر تم ها کار می کند." />
       </div>
     </section>

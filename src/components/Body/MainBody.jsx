@@ -5,6 +5,7 @@ import FilterSets from "./FilterSets";
 import FilterRelevant from "./FilterRelevant";
 import MobileView from "./MobileView";
 import CleanURLs from "./CleanURLs";
+import FilterEverythingAlso from "./FilterEverythingAlso";
 
 function MainBody() {
   return (
@@ -15,6 +16,7 @@ function MainBody() {
       <FilterRelevant />
       <MobileView />
       <CleanURLs />
+      <FilterEverythingAlso />
     </>
   );
 }

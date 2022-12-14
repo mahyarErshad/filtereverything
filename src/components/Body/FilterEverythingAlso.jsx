@@ -1,4 +1,5 @@
 import React from "react";
+import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards/FilterEverythingAlsoCards";
 
 function FilterEverythingAlso() {
   return (
@@ -8,7 +9,7 @@ function FilterEverythingAlso() {
           غول فیلتر <span className="text-purple">همچنین</span>
         </h5>
         <div>
-            
+            <FilterEverythingAlsoCards />
         </div>
       </div>
     </section>

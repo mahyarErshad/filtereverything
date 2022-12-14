@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
 function FilterEverythingAlsoCards(props) {
   return (
-    <div>
-    <div>
-        <div></div>
-        <div></div>
+    <div className="flex flex-col lg:gap-8 max-lg:gap-4">
+      <div>
+        <img src={props.icon} alt={props.title} />
+        <h5>{props.title}</h5>
+      </div>
+      <p>{props.description}</p>
     </div>
-    <div></div>
-    </div>
-  )
+  );
 }
 
-export default FilterEverythingAlsoCards
+export default FilterEverythingAlsoCards;

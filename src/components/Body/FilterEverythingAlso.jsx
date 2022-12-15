@@ -38,7 +38,7 @@ function FilterEverythingAlso() {
           غول فیلتر <span className="text-purple">همچنین</span>
         </h5>
       </div>
-      <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full lg:mx-[25%] md:mx-8 max-md:mx-4">
+      <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full lg:px-[25%] md:px-8 max-md:px-4 max-lg:gap-4 lg:gap-8">
         {memoizedData.map((item) => {
           return (
             <FilterEverythingAlsoCards key={item.title} icon={item.icon} title={item.title}>

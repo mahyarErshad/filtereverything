@@ -1,12 +1,18 @@
 import React, { useMemo } from "react";
 import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards/FilterEverythingAlsoCards";
 import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg";
+import ajaxIcon from "../../assets/images/FilterEverythingAlsoCards-icons/ajax.svg";
 
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
     return [
       {
         icon: puzzleIcon,
+        title: "سازگار با تم شما",
+        description: "به طور خودکار با اکثر تم ها کار می کند.",
+      },
+      {
+        icon: ajaxIcon,
         title: "سازگار با تم شما",
         description: "به طور خودکار با اکثر تم ها کار می کند.",
       },

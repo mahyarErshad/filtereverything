@@ -11,11 +11,13 @@ function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
     return [
       {
+        id: 1,
         icon: puzzleIcon,
         title: "سازگار با تم شما",
         description: "به طور خودکار با اکثر تم ها کار می کند.",
       },
       {
+        id: 2,
         icon: ajaxIcon,
         title: "پشتیبانی از AJAX",
         description: (
@@ -29,6 +31,7 @@ function FilterEverythingAlso() {
         ),
       },
       {
+        id: 3,
         icon: developersFriendlyIcon,
         title: "دوستدار توسعه دهندگان",
         description: (
@@ -46,16 +49,19 @@ function FilterEverythingAlso() {
         ),
       },
       {
+        id: 4,
         icon: wordpressIcon,
         title: "از رابط کاربری بومی وردپرس استفاده کنید",
         description: "برای دانستن نحوه کار با افزونه نیازی به حدس زدن یا یادگیری اسناد نیست. دارای رابط کاربری آشنا و بصری است.",
       },
       {
+        id: 5,
         icon: airplaneIcon,
         title: "سبک و سریع",
         description: "به لطف کدهای خوبی که نوشته شده، مانند یک جت جنگنده پرواز می کند.",
       },
       {
+        id: 6,
         icon: radioButtonIcon,
         title: "با بهترین شیوه های فیلتر مطابقت دارد",
         description: "الهام گرفته شده از محبوب ترین فروشگاه های اینترنتی در جهان.",

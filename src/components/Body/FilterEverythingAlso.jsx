@@ -5,6 +5,7 @@ import ajaxIcon from "../../assets/images/FilterEverythingAlsoCards-icons/ajax.s
 import developersFriendlyIcon from "../../assets/images/FilterEverythingAlsoCards-icons/developersFriendly.svg";
 import wordpressIcon from "../../assets/images/FilterEverythingAlsoCards-icons/wordpress.svg";
 import airplaneIcon from "../../assets/images/FilterEverythingAlsoCards-icons/airplane.svg";
+import radioButtonIcon from "../../assets/images/FilterEverythingAlsoCards-icons/radioButton.svg";
 
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {

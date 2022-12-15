@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards/FilterEverythingAlsoCards";
 import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg";
 import ajaxIcon from "../../assets/images/FilterEverythingAlsoCards-icons/ajax.svg";
+import developersFriendlyIcon from "../../assets/images/FilterEverythingAlsoCards-icons/developersFriendly.svg";
 
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
@@ -16,16 +17,28 @@ function FilterEverythingAlso() {
         title: "پشتیبانی از AJAX",
         description: (
           <p>
-            پلاگین از بارگیری پست های فیلتر شده با <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/plugin-settings/#ajax">AJAX</a> پشتیبانی می کند که بسیار سریعتر است.
+            پلاگین از بارگیری پست های فیلتر شده با{" "}
+            <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/plugin-settings/#ajax">
+              AJAX
+            </a>{" "}
+            پشتیبانی می کند که بسیار سریعتر است.
           </p>
         ),
       },
       {
-        icon: ajaxIcon,
-        title: "پشتیبانی از AJAX",
+        icon: developersFriendlyIcon,
+        title: "دوستدار توسعه دهندگان",
         description: (
           <p>
-            پلاگین از بارگیری پست های فیلتر شده با <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/plugin-settings/#ajax">AJAX</a> پشتیبانی می کند که بسیار سریعتر است.
+            رفتار و ظاهر افزونه را از طریق{" "}
+            <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/hooks/">
+              هوک ها
+            </a>{" "}
+            و ویژگی‌های اصلی{" "}
+            <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/templates-overriding/">
+              الگو
+            </a>{" "}
+            اصلاح کنید.
           </p>
         ),
       },

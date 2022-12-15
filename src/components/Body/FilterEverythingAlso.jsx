@@ -4,6 +4,7 @@ import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzz
 import ajaxIcon from "../../assets/images/FilterEverythingAlsoCards-icons/ajax.svg";
 import developersFriendlyIcon from "../../assets/images/FilterEverythingAlsoCards-icons/developersFriendly.svg";
 import wordpressIcon from "../../assets/images/FilterEverythingAlsoCards-icons/wordpress.svg";
+import airplaneIcon from "../../assets/images/FilterEverythingAlsoCards-icons/airplane.svg";
 
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
@@ -42,6 +43,11 @@ function FilterEverythingAlso() {
             اصلاح کنید.
           </p>
         ),
+      },
+      {
+        icon: wordpressIcon,
+        title: "از رابط کاربری بومی وردپرس استفاده کنید",
+        description: "برای دانستن نحوه کار با افزونه نیازی به حدس زدن یا یادگیری اسناد نیست. دارای رابط کاربری آشنا و بصری است.",
       },
       {
         icon: wordpressIcon,

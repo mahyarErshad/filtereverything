@@ -3,6 +3,7 @@ import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards
 import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg";
 import ajaxIcon from "../../assets/images/FilterEverythingAlsoCards-icons/ajax.svg";
 import developersFriendlyIcon from "../../assets/images/FilterEverythingAlsoCards-icons/developersFriendly.svg";
+import wordpressIcon from "../../assets/images/FilterEverythingAlsoCards-icons/wordpress.svg";
 
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
@@ -43,17 +44,9 @@ function FilterEverythingAlso() {
         ),
       },
       {
-        icon: ajaxIcon,
-        title: "پشتیبانی از AJAX",
-        description: (
-          <p>
-            پلاگین از بارگیری پست های فیلتر شده با{" "}
-            <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/plugin-settings/#ajax">
-              AJAX
-            </a>{" "}
-            پشتیبانی می کند که بسیار سریعتر است.
-          </p>
-        ),
+        icon: wordpressIcon,
+        title: "از رابط کاربری بومی وردپرس استفاده کنید",
+        description: "برای دانستن نحوه کار با افزونه نیازی به حدس زدن یا یادگیری اسناد نیست. دارای رابط کاربری آشنا و بصری است.",
       },
     ];
   }, []);

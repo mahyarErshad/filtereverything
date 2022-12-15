@@ -13,8 +13,12 @@ function FilterEverythingAlso() {
       },
       {
         icon: ajaxIcon,
-        title: "سازگار با تم شما",
-        description: "به طور خودکار با اکثر تم ها کار می کند.",
+        title: "پشتیبانی از AJAX",
+        description: (
+          <p>
+            پلاگین از بارگیری پست های فیلتر شده با <a className="text-blue-500" target="_blank" rel="noreferrer" href="https://filtereverything.pro/resources/plugin-settings/#ajax">AJAX</a> پشتیبانی می کند که بسیار سریعتر است.
+          </p>
+        ),
       },
     ];
   }, []);

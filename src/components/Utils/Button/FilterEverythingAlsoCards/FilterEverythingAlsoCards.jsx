@@ -7,7 +7,7 @@ function FilterEverythingAlsoCards(props) {
         <img className="max-w-[2.25rem]" src={props.icon} alt={props.title} />
         <h5 className="font-bold max-md:text-xl md:text-2xl">{props.title}</h5>
       </div>
-      <p className="text-base">{props.description}</p>
+      <p className="text-base">{props.children}</p>
     </div>
   );
 }

@@ -2,17 +2,16 @@ import React, { useMemo } from "react";
 import FilterEverythingAlsoCards from "../Utils/Button/FilterEverythingAlsoCards/FilterEverythingAlsoCards";
 import puzzleIcon from "../../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg";
 
-
 function FilterEverythingAlso() {
   const memoizedData = useMemo(() => {
     return [
       {
-      icon: puzzleIcon,
-      title: "سازگار با تم شما",
-      description: "به طور خودکار با اکثر تم ها کار می کند."
-    },
-  ]
-  }, [])
+        icon: puzzleIcon,
+        title: "سازگار با تم شما",
+        description: "به طور خودکار با اکثر تم ها کار می کند.",
+      },
+    ];
+  }, []);
   return (
     <section className="flex flex-col gap-4 w-full bg-white md:pt-36 max-md:pt-8 px-2 max-md:pb-4 md: pb-8">
       <div className="flex flex-col md:gap-2 max-lg:items-center lg:px-[25%] max-md:px-4 mb-6">
@@ -21,9 +20,13 @@ function FilterEverythingAlso() {
         </h5>
       </div>
       <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full lg:mx-[25%] md:mx-8 max-md:mx-4">
-        <FilterEverythingAlsoCards icon={puzzleIcon} title="سازگار با تم شما" >
-        به طور خودکار با اکثر تم ها کار می کند.
-        </FilterEverythingAlsoCards>
+        {memoizedData.map((item) => {
+          return (
+            <FilterEverythingAlsoCards key={item.title} icon={item.icon} title={item.title}>
+              {item.description}
+            </FilterEverythingAlsoCards>
+          );
+        })}
       </div>
     </section>
   );

@@ -78,7 +78,7 @@ function FilterEverythingAlso() {
       <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full justify-center lg:px-[10%] md:px-8 max-md:px-4 gap-8">
         {memoizedData.map((item) => {
           return (
-            <FilterEverythingAlsoCards key={item.title} icon={item.icon} title={item.title}>
+            <FilterEverythingAlsoCards key={item.id} icon={item.icon} title={item.title}>
               {item.description}
             </FilterEverythingAlsoCards>
           );

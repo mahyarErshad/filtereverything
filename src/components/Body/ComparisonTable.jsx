@@ -9,8 +9,8 @@ function ComparisonTable() {
         <table>
           <thead>
             <th></th>
-            <th>رایگان</th>
             <th>حرفه ای</th>
+            <th>رایگان</th>
           </thead>
         </table>
       </div>

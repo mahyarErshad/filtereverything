@@ -118,3 +118,7 @@ table {
   border-color: #f2f2f2;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+th {
+  vertical-align: middle;
+  padding: 0.5rem 1rem;
+}

@@ -123,6 +123,7 @@ th {
   font-weight: 700;
   vertical-align: middle;
   padding: 1.5rem 2rem;
+  white-space: nowrap;
 }
 table tr:nth-child(2n) td {
   background-color: #f9f9f9;

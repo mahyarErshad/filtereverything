@@ -119,6 +119,8 @@ table {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 th {
+  font-size: 1.375rem;
+  font-weight: 700;
   vertical-align: middle;
   padding: 1.5rem 2rem;
 }

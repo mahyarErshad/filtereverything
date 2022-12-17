@@ -6,6 +6,7 @@ import developersFriendlyIcon from "../../assets/images/FilterEverythingAlsoCard
 import wordpressIcon from "../../assets/images/FilterEverythingAlsoCards-icons/wordpress.svg";
 import airplaneIcon from "../../assets/images/FilterEverythingAlsoCards-icons/airplane.svg";
 import radioButtonIcon from "../../assets/images/FilterEverythingAlsoCards-icons/radioButton.svg";
+import FilterEverythingAlsoData from "../../lib/FilterEverythingAlsoData";
 
 function FilterEverythingAlso() {
   
@@ -17,7 +18,7 @@ function FilterEverythingAlso() {
         </h5>
       </div>
       <div className="max-md:mt-8 md:mt-12 lg:mt-20 flex flex-wrap w-full justify-center lg:px-[10%] md:px-8 max-md:px-4 gap-8">
-        {memoizedData.map((item) => {
+        {FilterEverythingAlsoData.map((item) => {
           return (
             <FilterEverythingAlsoCards key={item.id} icon={item.icon} title={item.title}>
               {item.description}

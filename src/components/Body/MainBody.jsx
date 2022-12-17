@@ -6,6 +6,7 @@ import FilterRelevant from "./FilterRelevant";
 import MobileView from "./MobileView";
 import CleanURLs from "./CleanURLs";
 import FilterEverythingAlso from "./FilterEverythingAlso";
+import ComparisonTable from "./ComparisonTable";
 
 function MainBody() {
   return (
@@ -17,6 +18,7 @@ function MainBody() {
       <MobileView />
       <CleanURLs />
       <FilterEverythingAlso />
+      <ComparisonTable />
     </>
   );
 }

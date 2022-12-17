@@ -130,4 +130,5 @@ table tr:nth-child(2n) td {
 td{
   font-size: 1.0625rem;
   font-weight: 400;
+  padding: 1rem 1.5rem;
 }

@@ -14,9 +14,15 @@ function ComparisonTable() {
             <th>رایگان</th>
           </thead>
           <tbody>
-            {
-                ComparisonTableData
-            }
+            {ComparisonTableData.map((item, index) => {
+              return (
+                <tr key={index}>
+                  <td>{item.title}</td>
+                  <td>{item.pro}</td>
+                  <td>{item.free}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

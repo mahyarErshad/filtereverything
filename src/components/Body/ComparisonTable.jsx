@@ -22,8 +22,10 @@ function ComparisonTable() {
               return (
                 <tr key={index}>
                   <td>{item.title}</td>
-                  <td className="flex justify-center items-center"><TickIcon className="max-w-[2.25rem]" /></td>
-                  <td>{item.free}</td>
+                  <td className="flex justify-center items-center">
+                    <TickIcon className="max-w-[2.25rem] max-h-9" />
+                  </td>
+                  <td className="flex justify-center items-center">{item.free ? <TickIcon className="max-w-[2.25rem] max-h-9" /> : <CrossIcon className="max-w-[2.25rem] max-h-9" />}</td>
                 </tr>
               );
             })}

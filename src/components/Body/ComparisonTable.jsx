@@ -1,5 +1,7 @@
 import React from "react";
 import ComparisonTableData from "../../lib/ComparisonTableData";
+import tickIcon from "../../assets/images/tick.svg"
+import crossIcon from "../../assets/images/cross.svg"
 
 function ComparisonTable() {
   return (

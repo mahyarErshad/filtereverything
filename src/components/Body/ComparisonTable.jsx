@@ -22,7 +22,7 @@ function ComparisonTable() {
               return (
                 <tr key={index}>
                   <td>{item.title}</td>
-                  <td>{item.pro ? <TickIcon /> : <CrossIcon />}</td>
+                  <td><TickIcon /></td>
                   <td>{item.free}</td>
                 </tr>
               );

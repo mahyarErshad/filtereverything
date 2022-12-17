@@ -29,6 +29,13 @@ function ComparisonTable() {
                 </tr>
               );
             })}
+            <tr>
+              <td>{"  "}</td>
+              <td>
+                <a className="text-blue-500" href="https://codecanyon.net/item/filter-everything-wordpress-woocommerce-filter/31634508" target="_blank" rel="noreferrer" >خرید نسخه حرفه ایی</a>
+              </td>
+              <td>دانلود رایگان</td>
+            </tr>
           </tbody>
         </table>
       </div>

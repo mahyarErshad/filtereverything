@@ -132,3 +132,7 @@ td {
   font-weight: 400;
   padding: 0.5rem 1rem;
 }
+a:hover {
+  color: var(--purple);
+  transition: all ease 300ms;
+}

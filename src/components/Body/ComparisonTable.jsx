@@ -1,7 +1,7 @@
 import React from "react";
 import ComparisonTableData from "../../lib/ComparisonTableData";
 import { ReactComponent as TickIcon } from "../../assets/images/tick.svg";
-import { ReactComponent as crossIcon } from "../../assets/images/cross.svg";
+import { ReactComponent as CrossIcon } from "../../assets/images/cross.svg";
 
 function ComparisonTable() {
   return (
@@ -22,7 +22,7 @@ function ComparisonTable() {
               return (
                 <tr key={index}>
                   <td>{item.title}</td>
-                  <td>{item.pro}</td>
+                  <td>{item.pro ? <TickIcon /> : <CrossIcon />}</td>
                   <td>{item.free}</td>
                 </tr>
               );

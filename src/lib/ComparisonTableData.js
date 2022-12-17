@@ -1,5 +1,2 @@
-const ComparisonTableData = [
-    {
-
-    },
-]
+const ComparisonTableData = [{}];
+export default ComparisonTableData;

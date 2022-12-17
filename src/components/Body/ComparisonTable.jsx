@@ -31,12 +31,12 @@ function ComparisonTable() {
             })}
             <tr>
               <td className="py-10">{"  "}</td>
-              <td className="">
+              <td className="ltr text-center">
                 <a className="text-blue-500" href="https://codecanyon.net/item/filter-everything-wordpress-woocommerce-filter/31634508" target="_blank" rel="noreferrer">
                   خرید نسخه حرفه ایی
                 </a>
               </td>
-              <td>
+              <td className="ltr text-center">
                 <a className="text-blue-500" href="https://wordpress.org/plugins/filter-everything/" target="_blank" rel="noreferrer">
                   دانلود نسخه رایگان
                 </a>

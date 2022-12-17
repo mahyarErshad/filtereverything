@@ -56,3 +56,5 @@ const FilterEverythingAlsoData = [
     description: "الهام گرفته شده از محبوب ترین فروشگاه های اینترنتی در جهان.",
   },
 ];
+
+export default FilterEverythingAlsoData;

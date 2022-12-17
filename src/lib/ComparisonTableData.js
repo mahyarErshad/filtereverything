@@ -25,9 +25,24 @@ const ComparisonTableData = [
         free: true,
 },
     {
-        title: "پیشوندهای URL سفارشی برای فیلترها",
+        title: "فیلتر کردن کوئری های WP سفارشی",
         pro: true,
-        free: true,
+        free: false,
+},
+    {
+        title: "URL ها و پیوندهای ثابت مرتب",
+        pro: true,
+        free: false,
+},
+    {
+        title: "فیلتر هوشمند با تغییرات محصول Woo",
+        pro: true,
+        free: false,
+},
+    {
+        title: "فیلتر هوشمند با تغییرات محصول Woo",
+        pro: true,
+        free: false,
 },
 ];
 export default ComparisonTableData;

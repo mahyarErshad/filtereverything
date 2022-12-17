@@ -120,7 +120,7 @@ table {
 }
 th {
   vertical-align: middle;
-  padding: 0.5rem 1rem;
+  padding: 1.5rem 2rem;
 }
 table tr:nth-child(2n) td {
   background-color: #f9f9f9;

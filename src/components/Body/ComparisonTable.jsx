@@ -1,4 +1,5 @@
 import React from "react";
+import ComparisonTableData from "../../lib/ComparisonTableData";
 
 function ComparisonTable() {
   return (
@@ -13,7 +14,9 @@ function ComparisonTable() {
             <th>رایگان</th>
           </thead>
           <tbody>
-            <tr></tr>
+            {
+                ComparisonTableData
+            }
           </tbody>
         </table>
       </div>

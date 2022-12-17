@@ -13,7 +13,7 @@ function ComparisonTable() {
             <th>رایگان</th>
           </thead>
           <tbody>
-            
+            <tr></tr>
           </tbody>
         </table>
       </div>

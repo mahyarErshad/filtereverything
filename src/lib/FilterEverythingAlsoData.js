@@ -1,3 +1,10 @@
+import puzzleIcon from "../assets/images/FilterEverythingAlsoCards-icons/puzzle.svg";
+import ajaxIcon from "../assets/images/FilterEverythingAlsoCards-icons/ajax.svg";
+import developersFriendlyIcon from "../assets/images/FilterEverythingAlsoCards-icons/developersFriendly.svg";
+import wordpressIcon from "../assets/images/FilterEverythingAlsoCards-icons/wordpress.svg";
+import airplaneIcon from "../assets/images/FilterEverythingAlsoCards-icons/airplane.svg";
+import radioButtonIcon from "../assets/images/FilterEverythingAlsoCards-icons/radioButton.svg";
+
 const FilterEverythingAlsoData = [
   {
     id: 1,

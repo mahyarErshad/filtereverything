@@ -115,8 +115,7 @@ table {
 td,
 th,
 table {
-  border-color: #f2f2f2;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid #f2f2f2;
 }
 th {
   font-size: 1.375rem;

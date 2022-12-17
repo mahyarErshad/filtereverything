@@ -136,3 +136,6 @@ a:hover {
   color: var(--purple);
   transition: all ease 300ms;
 }
+.ltr{
+  direction: ltr;
+}

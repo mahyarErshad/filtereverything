@@ -12,6 +12,9 @@ function ComparisonTable() {
             <th>حرفه ای</th>
             <th>رایگان</th>
           </thead>
+          <tbody>
+            
+          </tbody>
         </table>
       </div>
     </section>

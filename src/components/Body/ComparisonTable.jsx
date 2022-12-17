@@ -8,7 +8,7 @@ function ComparisonTable() {
         <h2 className=" max-md:text-2xl md:text-lg lg:text-3xl font-bold max-lg:mb-4 lg:mb-8">تفاوت نسخه رایگان با نسخه حرفه ای</h2>
         <table>
           <thead>
-            <th></th>
+            <th>{"  "}</th>
             <th>حرفه ای</th>
             <th>رایگان</th>
           </thead>

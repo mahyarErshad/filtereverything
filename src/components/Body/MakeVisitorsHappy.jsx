@@ -2,7 +2,9 @@ import React from 'react'
 
 function MakeVisitorsHappy() {
   return (
-    <div>MakeVisitorsHappy</div>
+    <section className='flex justify-center items-center py-12'>
+
+    </section>
   )
 }
 

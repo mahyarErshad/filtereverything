@@ -7,6 +7,7 @@ import MobileView from "./MobileView";
 import CleanURLs from "./CleanURLs";
 import FilterEverythingAlso from "./FilterEverythingAlso";
 import ComparisonTable from "./ComparisonTable";
+import MakeVisitorsHappy from "./MakeVisitorsHappy";
 
 function MainBody() {
   return (
@@ -19,6 +20,7 @@ function MainBody() {
       <CleanURLs />
       <FilterEverythingAlso />
       <ComparisonTable />
+      <MakeVisitorsHappy />
     </>
   );
 }

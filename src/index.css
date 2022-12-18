@@ -136,6 +136,15 @@ a:hover {
   color: var(--purple);
   transition: all ease 300ms;
 }
-.ltr{
+.ltr {
   direction: ltr;
+}
+.make-visitors-happy__free-version {
+  border: 2px solid var(--white);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.make-visitors-happy__free-version:hover {
+  border-color: var(--gray);
+  color: var(--gray);
 }

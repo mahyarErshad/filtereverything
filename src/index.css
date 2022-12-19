@@ -160,5 +160,5 @@ a:hover {
   color: var(--gray);
 }
 .custom-border {
-  border: 2px solid var(--purple);
+  border: 1px solid var(--primary-color);
 }

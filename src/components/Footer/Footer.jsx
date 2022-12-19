@@ -2,7 +2,9 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer className='py-14 bg-[#302f33]'>
+
+    </footer>
   )
 }
 

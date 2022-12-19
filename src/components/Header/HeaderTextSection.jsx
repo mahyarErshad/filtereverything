@@ -20,9 +20,9 @@ function HeaderTextSection() {
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">
         <p className="text-white mt-4 max-md:text-justify max-md:w-[21rem] md:w-[29rem]">غول فیلتر - افزونه فیلتر محصولات وردپرس و ووکامرس که به شما اجازه پیاده سازی هر نوع فیلتری را می دهد.</p>
       </div>
-      <div className="flex items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[29rem] max-md:gap-4 md:gap-2">
-        <Button title="دانلود رایگان" className="download-for-free-button py-2" backgroundColor="bg-transparent" textColor="text-white" />
-        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-[3.2rem] md:px-[2rem] md:w-[44%] custom-border" />
+      <div className="flex items-center flex-wrap mt-6 max-md:w-full md:w-[29rem] max-md:gap-4 md:gap-2">
+        <Button title="دانلود رایگان" className="download-for-free-button py-2 max-md:w-full" backgroundColor="bg-transparent" textColor="text-white" />
+        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-[3.2rem] md:px-[2rem] md:w-[44%] custom-border max-md:w-full" />
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ function Footer() {
       <FooterNavLink data={["نسخه حرفه ایی غول فیلتر", "درباره ما"]} />
       <FooterNavLink data={["مستندات", "پشتیبانی", "تماس با ما"]} />
       <FooterNavLink data={["شرایط استفاده", "تغییرات"]} />
+      <FooterNavLink data={["نسخه رایگان", "نسخه حرفه ایی"]} />
     </footer>
   );
 }

@@ -7,13 +7,14 @@ function HeaderTextSection() {
     <div className="md:pr-[5%] sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-6 rounded-bl-[50%]">
       <div className="pt-16">
         <h1 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold">
-          غول
+          غول فیلتر
           <sup className="text-center text-black py-0 px-4 rounded-[35px] bg-[#ffd000] text-3xl mr-4">+سئو</sup>
         </h1>
-        <h2 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold mr-3">فیلتر</h2>
       </div>
       <div className="flex flex-col md:gap-3 max-md:gap-2 md:mt-8 max-md:mt-6">
-        <p className="max-md:text-4xl md:text-[4.5rem] font-bold text-white"><span className="font-light">برای</span> وردپرس <span className="font-light">و</span></p>
+        <p className="max-md:text-4xl md:text-[4.5rem] font-bold text-white">
+          <span className="font-light">برای</span> وردپرس <span className="font-light">و</span>
+        </p>
         <div className="max-md:text-3xl md:text-4xl font-bold text-white">
           <img src={woocommerceLogoPng} className="max-md:w-[17rem] md:w-[29rem]" alt="woocommerce" />
         </div>

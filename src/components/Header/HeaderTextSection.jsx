@@ -4,7 +4,7 @@ import Button from "../Utils/Button/Button";
 
 function HeaderTextSection() {
   return (
-    <div className="md:pr-[5%] max-sm:flex max-sm:flex-col max-sm:items-center sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-12 rounded-bl-[50%]">
+    <div className="md:pr-[5%] max-sm:flex max-sm:flex-col max-sm:items-center sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-12 max-sm:rounded-bl-none max-lg:rounded-bl-[50%]">
       <div className="pt-16 max-md:w-[21rem] md:w-[28rem] flex flex-col">
         <span className="text-center text-black py-2 px-4 rounded-[35px] bg-[#ffd000] sm:text-lg md:text-xl lg:text-3xl font-bold self-end w-fit">+سئو</span>
         <h1 className="md:text-[6.7rem] max-md:text-[5rem] text-white font-bold max-md:mt-2">غول فیلتر</h1>

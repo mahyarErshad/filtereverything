@@ -6,10 +6,8 @@ function HeaderTextSection() {
   return (
     <div className="md:pr-[5%] sm:pr-10 max-sm:pr-8 max-lg:bg-[#435ec3b9] pb-6 rounded-bl-[50%]">
       <div className="pt-16">
-        <h1 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold">
-          غول فیلتر
-          <sup className="text-center text-black py-0 px-4 rounded-[35px] bg-[#ffd000] text-3xl mr-4">+سئو</sup>
-        </h1>
+        <span className="text-center text-black max-lg:py-2 lg:py-0 px-4 rounded-[35px] bg-[#ffd000] sm:text-base md:text-xl lg:text-3xl font-bold">+سئو</span>
+        <h1 className="md:text-[6.7rem] max-md:text-[3.5rem] text-white font-bold max-md:mt-2">غول فیلتر</h1>
       </div>
       <div className="flex flex-col md:gap-3 max-md:gap-2 md:mt-8 max-md:mt-6">
         <p className="max-md:text-4xl md:text-[4.5rem] font-bold text-white">

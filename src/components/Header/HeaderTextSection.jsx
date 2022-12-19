@@ -1,5 +1,5 @@
 import React, { memo } from "react";
-import { ReactComponent as WoocommerceLogo } from "../../assets/images/woocommerce_logo.svg";
+import woocommerceLogoPng from "../../assets/images/woocommerce_logo-png.png";
 import Button from "../Utils/Button/Button";
 
 function HeaderTextSection() {
@@ -13,10 +13,10 @@ function HeaderTextSection() {
         <h2 className="md:text-[4.5rem] sm:text-[3.5rem] max-sm:text-[3rem] text-white font-bold mr-3">فیلتر</h2>
       </div>
       <div className="flex flex-col md:gap-3 max-md:gap-2 md:mt-8 max-md:mt-6">
-        <p className="max-md:text-4xl md:text-5xl font-bold text-white">برای WordPress</p>
+        <p className="max-md:text-4xl md:text-5xl font-bold text-white">برای وردپرس</p>
         <span className="md:-translate-y-3 max-md:-translate-y-2 text-white max-md:text-5xl md:text-6xl max-md:pr-20 md:pr-28">و</span>
         <div className="max-md:text-3xl md:text-4xl font-bold text-white">
-          <WoocommerceLogo className="max-md:w-[16.5rem] md:w-[21.5rem]" />
+          <img src={woocommerceLogoPng} className="max-md:w-[17rem] md:w-[21.5rem]" />
         </div>
       </div>
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">

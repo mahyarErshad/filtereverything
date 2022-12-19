@@ -3,6 +3,11 @@
 @tailwind utilities;
 @font-face {
   font-family: YekanBakh;
+  font-weight: 300;
+  src: url("../public/assets/fonts/YekanBakhFaNum-Light.woff");
+}
+@font-face {
+  font-family: YekanBakh;
   font-weight: 400;
   src: url("../public/assets/fonts/YekanBakh-Regular.woff");
 }

@@ -10,11 +10,11 @@ function HeaderTextSection() {
         <h1 className="md:text-[6.7rem] max-md:text-[3.5rem] text-white font-bold max-md:mt-2">غول فیلتر</h1>
       </div>
       <div className="flex flex-col md:gap-3 max-md:gap-2 md:mt-8 max-md:mt-6">
-        <p className="max-md:text-4xl md:text-[4.5rem] font-bold text-white">
+        <p className="max-md:text-[2.4rem] md:text-[4.5rem] font-bold text-white">
           <span className="font-light">برای</span> وردپرس <span className="font-light">و</span>
         </p>
         <div className="max-md:text-3xl md:text-4xl font-bold text-white">
-          <img src={woocommerceLogoPng} className="max-md:w-[17rem] md:w-[29rem]" alt="woocommerce" />
+          <img src={woocommerceLogoPng} className="max-md:w-[15.6rem] md:w-[29rem]" alt="woocommerce" />
         </div>
       </div>
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">

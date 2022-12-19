@@ -159,3 +159,6 @@ a:hover {
   border-color: var(--gray);
   color: var(--gray);
 }
+.custom-border {
+  border: 2px solid var(--purple);
+}

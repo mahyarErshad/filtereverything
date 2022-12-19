@@ -22,7 +22,7 @@ function HeaderTextSection() {
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">
         <p className="text-white mt-6">غول فیلتر - افزونه فیلتر محصولات وردپرس و ووکامرس که به شما اجازه پیاده سازی هر نوع فیلتری را می دهد.</p>
       </div>
-      <div className="flex justify-between items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[25rem] gap-4">
+      <div className="flex justify-between items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[26rem] gap-4">
         <Button title="دانلود رایگان" className="download-for-free-button py-2" backgroundColor="bg-transparent" textColor="text-white" />
         <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-11" />
       </div>

@@ -105,10 +105,15 @@ body {
   padding: 0.8rem 4rem 0.8rem 3.5rem;
   font-weight: 400;
   background-image: url("../public/assets/images/white_wordpress.svg");
-  background-position: 10.5rem 46%;
+  background-position: 85% 46%;
   background-repeat: no-repeat;
   background-size: 2rem;
   font-size: 1.2rem;
+}
+@media screen and (max-width: 640px) {
+  .download-for-free-button {
+    background-position: 73% 46%;
+  }
 }
 .download-for-free-button:hover {
   border-color: var(--gray);

@@ -16,7 +16,7 @@ function HeaderTextSection() {
         <p className="max-md:text-4xl md:text-5xl font-bold text-white">برای وردپرس</p>
         <span className="md:-translate-y-3 max-md:-translate-y-2 text-white max-md:text-5xl md:text-6xl max-md:pr-20 md:pr-28">و</span>
         <div className="max-md:text-3xl md:text-4xl font-bold text-white">
-          <img src={woocommerceLogoPng} className="max-md:w-[17rem] md:w-[21.5rem]" />
+          <img src={woocommerceLogoPng} className="max-md:w-[17rem] md:w-[21.5rem]" alt="woocommerce" />
         </div>
       </div>
       <div className="max-md:w-[16.5rem] max-md:text-justify md:w-[22rem]">

@@ -9,7 +9,7 @@ function HeaderTextSection() {
         <span className="text-center text-black max-lg:py-2 lg:py-0 px-4 rounded-[35px] bg-[#ffd000] sm:text-base md:text-xl lg:text-3xl font-bold">+سئو</span>
         <h1 className="md:text-[6.7rem] max-md:text-[3.5rem] text-white font-bold max-md:mt-2">غول فیلتر</h1>
       </div>
-      <div className="flex flex-col md:gap-3 max-md:gap-2 md:mt-8 max-md:mt-6">
+      <div className="flex flex-col md:gap-3 max-md:gap-2">
         <p className="max-md:text-[2.4rem] md:text-[4.5rem] font-bold text-white">
           <span className="font-light">برای</span> وردپرس <span className="font-light">و</span>
         </p>

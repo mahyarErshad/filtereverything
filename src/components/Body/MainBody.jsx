@@ -8,10 +8,12 @@ import CleanURLs from "./CleanURLs";
 import FilterEverythingAlso from "./FilterEverythingAlso";
 import ComparisonTable from "./ComparisonTable";
 import MakeVisitorsHappy from "./MakeVisitorsHappy";
+import GoToTopButton from "../Utils/Button/GoToTopButton";
 
 function MainBody() {
   return (
     <>
+      <GoToTopButton />
       <TaxonomySection />
       <FilterCards />
       <FilterSets />

@@ -2,8 +2,8 @@ import React from "react";
 
 function GoToTopButton() {
   return (
-    <button className="cursor-pointer border-r-[50%] text-center fixed bottom-[5%] left-[5%]">
-      <span class="material-symbols-outlined">arrow_upward</span>
+    <button className="cursor-pointer rounded-[50%] p-2 flex justify-center items-center border border-white fixed bottom-[5%] left-[5%] bg-purple">
+      <span class="material-symbols-outlined text-white">arrow_upward</span>
     </button>
   );
 }

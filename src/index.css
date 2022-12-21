@@ -168,16 +168,16 @@ a:hover {
   border: 1px solid var(--primary-color);
 }
 @keyframes goToTopButtonAnimation {
-  0%{
+  0% {
     opacity: 0;
-    transform: translateX(-200%);
+    transform: translateY(200%);
   }
-  100%{
+  100% {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
-.goToTopButton{
+.goToTopButton {
   animation: goToTopButtonAnimation;
   animation-duration: 1000ms;
 }

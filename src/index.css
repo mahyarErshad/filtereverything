@@ -167,3 +167,20 @@ a:hover {
 .custom-border {
   border: 1px solid var(--primary-color);
 }
+.GoToTopButton-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.GoToTopButton-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.GoToTopButton-exit {
+  opacity: 1;
+}
+.GoToTopButton-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}

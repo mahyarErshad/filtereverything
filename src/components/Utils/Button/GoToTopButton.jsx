@@ -1,9 +1,7 @@
-import React, { useState, useEffect, useRef } from "react";
-import { CSSTransition } from 'react-transition-group';
+import React, { useState, useEffect } from "react";
 
 function GoToTopButton() {
   const [scrollHeight, setScrollHeight] = useState(false);
-  const nodeRef = useRef(null);
   const root = document.getElementById("root");
   function handleScroll() {
     root.scroll({

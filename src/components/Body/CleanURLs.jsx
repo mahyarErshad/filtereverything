@@ -6,7 +6,7 @@ import VerticalContentLayout from "../Layout/VerticalContentLayout/VerticalConte
 
 function CleanURLs() {
   return (
-    <section className="flex flex-col gap-4 w-full bg-[#F4F9FA] md:pt-36 max-md:pt-8 px-2 max-md:pb-4 md: pb-8">
+    <section className="flex flex-col gap-4 w-full bg-[#F4F9FA] md:pt-36 max-md:pt-8 px-2 pb-16">
       <div className="flex flex-col md:gap-2 max-lg:items-center lg:px-[25%] max-md:px-4 mb-6">
         <p className="flex max-sm:flex-col items-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3">
           URL های تمیز برای <span className="text-purple">/فیلتر/نتایج/صفحات</span>

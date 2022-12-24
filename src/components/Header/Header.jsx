@@ -21,7 +21,7 @@ function Header() {
             <HeaderDropDownMenu />
           </div>
         </div>
-        <Button className="font-bold py-2 hover:bg-[#18caca]" title="خرید نسخه حرفه ای" />
+        <Button href="https://www.zhaket.com/web/filter-everything-filter-plugin" className="font-bold py-2 hover:bg-[#18caca]" title="خرید نسخه حرفه ای" />
       </div>
       <HeaderTextSection />
     </header>

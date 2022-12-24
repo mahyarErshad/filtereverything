@@ -15,7 +15,7 @@ function CleanURLs() {
       </div>
       <img className="max-lg:w-full lg:w-3/4 self-center mb-4" src={clean_URLs} alt="Clean_URLs" />
       <VerticalContentLayout image={SEO_Rules} alt="SEO rules">
-        <p className="flex items-center max-lg:justify-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3 md:mb-10 max-md:mb-2 lg:pr-[25%] max-md:pr-4">
+        <p className="flex items-center max-lg:justify-center font-bold max-sm:text-xl max-md:text-2xl md:text-3xl text-[#222] gap-3 md:mb-10 max-md:mb-2 whitespace-nowrap">
           ایجاد قوانین سئو برای<span className="text-purple">/آنها</span>
         </p>
         <p className="text-base text-[#676767] font-medium max-md:mb-4">باعث می شود که فیلترها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>

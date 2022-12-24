@@ -5,7 +5,7 @@ import VerticalContentLayout from "../Layout/VerticalContentLayout/VerticalConte
 function FilterSets() {
   return (
     <>
-      <VerticalContentLayout>
+      <VerticalContentLayout image={filterSetsImage} alt="filter sets">
         <p className="font-bold max-lg:text-xl lg:text-3xl break-keep">
           مجموعه فیلترهای <span className="text-purple">شخصی</span> ایجاد کنید
         </p>

@@ -20,7 +20,7 @@ function CleanURLs() {
         </p>
         <p className="text-base text-[#676767] font-medium max-md:mb-4">باعث می شود که فیلترها برای ایندکس شدن توسط موتورهای جستجو در دسترس باشند.</p>
       </VerticalContentLayout>
-      <img className="self-center max-w-[6rem] lg:mt-32 max-lg:mt-8 md:mb-8 max-md:mb-4" src={graph} alt="graph" />
+      <img className="self-center max-w-[6rem] mt-4 md:mb-8 max-md:mb-4" src={graph} alt="graph" />
       <h5 className="self-center lg:text-4xl md:text-3xl max-md:text-2xl font-bold">
         بازدیدکنندگان <span className="text-purple">بیشتری</span> را از موتورهای جستجو دریافت کنید!
       </h5>

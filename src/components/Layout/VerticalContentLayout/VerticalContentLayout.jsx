@@ -8,7 +8,7 @@ function VerticalContentLayout(props) {
         {props.children}
         </div>
       </div>
-      <div className="md:w-2/4 max-md:w-full flex max-md:justify-center p-[5%]">
+      <div className="md:w-[40%] max-md:w-full flex max-md:justify-center p-[5%]">
         <img className="h-auto max-w-full" src={props.image} alt={props.alt} />
       </div>
     </section>

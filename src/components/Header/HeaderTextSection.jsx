@@ -22,7 +22,7 @@ function HeaderTextSection() {
       </div>
       <div className="flex max-sm:flex-col max-sm:w-full items-center flex-wrap mt-6 max-md:w-[16.5rem] md:w-[29rem] max-md:gap-4 md:gap-2">
         <Button title="دانلود رایگان" className="download-for-free-button py-2 max-sm:w-[21rem]" backgroundColor="bg-transparent" textColor="text-white" />
-        <Button title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-[3.2rem] md:px-[2rem] md:w-[44%] custom-border max-sm:w-[21rem]" />
+        <Button href="https://www.zhaket.com/web/filter-everything-filter-plugin" title="خرید نسخه حرفه ای" className="hover:bg-[#18caca] font-bold py-[1.05rem] max-md:px-[3.2rem] md:px-[2rem] md:w-[44%] custom-border max-sm:w-[21rem]" />
       </div>
     </div>
   );

@@ -102,14 +102,8 @@ body {
 }
 .download-for-free-button {
   border: 2px solid var(--white);
-  padding: 0.85rem 0.5rem;
   font-weight: 400;
   font-size: 1.2rem;
-}
-@media screen and (max-width: 640px) {
-  .download-for-free-button {
-    background-position: 73% 46%;
-  }
 }
 .download-for-free-button:hover {
   border-color: var(--gray);

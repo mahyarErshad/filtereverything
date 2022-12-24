@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import filterSetsImage from "../../assets/images/filter-sets.jpg";
+import VerticalContentLayout from "../Layout/VerticalContentLayout/VerticalContentLayout";
 
 function FilterSets() {
   return (

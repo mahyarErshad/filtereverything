@@ -1,4 +1,4 @@
-# Available on:
+# Available On:
 
 https://www.zhaket.com/web/filter-everything-filter-plugin/demo
 

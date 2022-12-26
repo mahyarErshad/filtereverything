@@ -1,6 +1,5 @@
 # Available On:
-
-https://www.zhaket.com/web/filter-everything-filter-plugin/demo
+<a href="https://www.zhaket.com/web/filter-everything-filter-plugin/demo" target="_blank" > Zhaket </a>
 
 # Getting Started with Create React App
 

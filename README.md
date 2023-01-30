@@ -1,5 +1,6 @@
 # Available On:
-<a href="https://www.zhaket.com/web/filter-everything-filter-plugin/demo" target="_blank" > Zhaket </a>
+<a href="https://www.zhaket.com/web/filter-everything-filter-plugin/demo" target="_blank" > Zhaket </a>  
+<a href="https://dana-team.com/products/filter-everything/" target="_blank" > Dana Team </a>
 
 # Getting Started with Create React App
 
